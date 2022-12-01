@@ -1,0 +1,9 @@
+,model,smote,cv_f1_score,test_bal_acc,test_f1_score
+0,"LogisticRegression(class_weight='balanced', random_state=123)",N,0.525142667404735,0.722132140985325,0.5210970464135021
+1,"LogisticRegression(class_weight='balanced', random_state=123)",Y,0.6061164257779847,0.7156790487421384,0.5142255005268704
+2,"SVC(class_weight='balanced', kernel='linear', random_state=123)",N,0.5429844752813302,0.7248427672955975,0.5236593059936908
+3,"SVC(class_weight='balanced', kernel='linear', random_state=123)",Y,0.6196469893172073,0.7284214491614256,0.5273109243697478
+4,"RandomForestClassifier(class_weight='balanced', max_depth=2, random_state=123)",N,0.5293842745708058,0.7117236635220126,0.5112299465240642
+5,"RandomForestClassifier(class_weight='balanced', max_depth=2, random_state=123)",Y,0.6084858825178538,0.718831892033543,0.5207877461706784
+6,<keras.wrappers.scikit_learn.KerasClassifier object at 0x0000025988620D90>,N,0.5652019097756659,0.7292895047169812,0.528421052631579
+7,<keras.wrappers.scikit_learn.KerasClassifier object at 0x000002598220ADF0>,Y,0.6605044631994582,0.7305997772536688,0.5340659340659341
